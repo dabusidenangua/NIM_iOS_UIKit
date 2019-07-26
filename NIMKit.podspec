@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
     os.resources = 'NIMKit/Resources/*.*'   
     os.dependency 'SDWebImage', '~> 4.4.6'  
     os.dependency 'Toast', '~> 3.0'         
-    os.dependency 'M80AttributedLabel', '~> 1.6.3'       
-    os.dependency 'TZImagePickerController', '~> 3.0.7'  
+    os.dependency 'M80AttributedLabel', '~> 1.6.3'         
   end   
 
   s.default_subspec = 'Lite'  
